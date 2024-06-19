@@ -12,17 +12,11 @@ jobs:
       - run: echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
         uses: actions/checkout@v4
-    
-      - name: Get the last commit message and file
-        id: last_commit
-        run: |
-          $last_commit_file = git diff-tree --no-commit-id --name-only -r HEAD
-          echo "file=$last_commit_file" >> $env:LAST_COMMIT_FILE
 
       - name: Copy release
         run: |
           New-Item -ItemType Directory -Force -Path RELEASE_ZIP_DIR
-          Copy-Item -Path .\"${{ env.LAST_COMMIT_FILE }}" -Destination RELEASE_ZIP_DIR
+          Copy-Item -Path .\*.exe -Destination RELEASE_ZIP_DIR
 
       - name: Upload binaries to release
         uses: svenstaro/upload-release-action@v2
