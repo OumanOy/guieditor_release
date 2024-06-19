@@ -1,0 +1,48 @@
+name: sign-guieditor
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: [self-hosted, ops, Windows]
+    steps:
+      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "This job is now running on a ${{ runner.os }}"
+      - run: echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v4
+    
+      - name: Get the last commit message and file
+        id: last_commit
+        run: |
+          $last_commit_message = git log -1 --pretty=%B
+          $last_commit_file = git diff-tree --no-commit-id --name-only -r HEAD
+          echo "::set-output name=message::$last_commit_message"
+          echo "::set-output name=file::$last_commit_file"
+
+      - name: Check if the last modified file is a .exe file
+        id: check_file_extension
+        run: |
+          if (${{ steps.last_commit.outputs.file }} -like "*.exe") {
+            echo "::set-output name=release::true"
+          } else {
+            echo "::set-output name=release::false"
+          }
+
+      - name: Copy release
+        if: steps.check_file_extension.outputs.release == 'true'
+        id: copy_release
+        run: |
+          New-Item -ItemType Directory -Force -Path RELEASE_ZIP_DIR
+          Copy-Item -Path .\"${{ steps.last_commit.outputs.file }}" -Destination RELEASE_ZIP_DIR
+
+      - name: Upload binaries to release
+        if: steps.check_file_extension.outputs.release == 'true'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: RELEASE_ZIP_DIR/*
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
+          
