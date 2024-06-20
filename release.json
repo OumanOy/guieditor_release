@@ -1,0 +1,11 @@
+{
+    "version": "v0.9.7",
+    "notes": "Test version",
+    "pub_date": "2024-06-20T09:55:57Z",
+    "platforms": {
+      "windows-x86_64": {
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZkdpMlU3L1ozamNXc3BTeUN1M1IrMzZvNUZxbzdUUFlSWHhqbS9sbnp2dmc1cE9RT05XOHJzUkt0ZVdlUE5Ybmp2bjR0dEdseUlScys2dWhLV25BZWNJcUxzWitPUmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE4ODY2NjI3CWZpbGU6b3VtYW4tZ3VpZWRpdG9yXzAuOS43X3g2NC1zZXR1cC5uc2lzLnppcAphbk9zYlczd05DR0QwKzdUZzBRcnFrUzFGMUdzZ2FLY0FWRFEzQ2FSa0Z4akp1cEpuT1NONlZtMjY5OTJkVGNrL0YzR055OVdTNUZ4UnpUazlNZTJBQT09Cg",
+        "url": "https://github.com/duyledinh/guieditor-release/releases/download/new/ouman-guieditor_0.9.7_x64-setup.nsis.zip"
+      }
+    }
+  }
