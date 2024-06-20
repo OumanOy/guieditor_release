@@ -1,11 +1,11 @@
 {
     "version": "v0.9.7",
-    "notes": "Test version",
+    "notes": "Version 0.9.7",
     "pub_date": "2024-06-20T09:55:57Z",
     "platforms": {
       "windows-x86_64": {
-        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZkdpMlU3L1ozalRtSzh2blp1ZW5TR2NoK3k4TmVOdDZEdFBXRjFpVmxPMCtOQ2JXZWFzMVpCb1B2d2pSVUcyMHg0VVdSdTh2QngzV0VHbmZ0SXk0c3B3YloyTU9hRlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE4ODc2ODIwCWZpbGU6b3VtYW4tZ3VpZWRpdG9yXzAuOS42X3g2NF9lbi1VUy5tc2kuemlwCmRBQ2piUHhSUVozY3IwRFl1cU5tR2xTVVFlWm51T0gzSVhNekphVFZscElrQXZ5MFU5YlNHUi9SNDBRVXkxYXpxNVMwNVFEYlN4ZzIwSHZMK0tVcUJBPT0K",
-        "url": "https://github.com/duyledinh/guieditor-release/releases/download/0.9.7/ouman-guieditor_0.9.7_x64_en-US.msi.zip"
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTc2lPVkpJRVpMSVlRemcrMGZSRFAzRkF3YzA5Q2MrQ2ZyVVp5NDJBRGx4TzJ1L0FXdDJ1bFdxQnRmYkM0NlpYTzlWdFhud3R5Ykh6S1VwZ2hUcW1aQ3lDNkJaL1htWmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE4ODg2NTQ0CWZpbGU6b3VtYW4tZ3VpZWRpdG9yXzAuOS43X3g2NC1zZXR1cC5uc2lzLnppcApNYi9OVUJqSUdKZ0djQ2tRVVE3a2xLdjJpamI1QnVyZE1yRzg1dUJ6QUF3SnFpUlRLYjlMLzRKT2piUTVYS1BLZVkzZ0xZK2paZFUrdFRJQzFtbWhBQT09Cg==",
+        "url": "https://github.com/OumanOy/guieditor_release/releases/download/0.9.7/ouman-guieditor_0.9.7_x64-setup.nsis.zip"
       }
     }
   }
