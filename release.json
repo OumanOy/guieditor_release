@@ -1,10 +1,10 @@
 {
-    "version": "v0.9.7",
-    "notes": "Version 0.9.7",
-    "pub_date": "2024-06-20T09:55:57Z",
+    "version": "v0.9.8",
+    "notes": "This is the same as version 0.9.7, just for testing purpose",
+    "pub_date": "2024-06-21T09:55:57Z",
     "platforms": {
       "windows-x86_64": {
-        "url": "https://github.com/OumanOy/guieditor_release/releases/download/main/ouman-guieditor_0.9.7_x64-setup.exe"
+        "url": "https://github.com/OumanOy/guieditor_release/releases/download/v0.9.8/ouman-guieditor_0.9.8_x64-setup.exe"
       }
     }
   }
