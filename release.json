@@ -1,7 +1,7 @@
 {
     "version": "v1.0.0",
     "notes": "First official release",
-    "pub_date": "2024-06-27T19:55:57Z",
+    "pub_date": "2024-10-01T16:24:57Z",
     "platforms": {
       "windows-x86_64": {
         "url": "https://github.com/OumanOy/guieditor_release/raw/refs/heads/main/ouman-guieditor_1.0.0_x64-setup.exe"
