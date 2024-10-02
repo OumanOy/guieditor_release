@@ -1,10 +1,13 @@
 name: release-guieditor
 
-on: [push]
+on:
+  push:
+    tags:
+      - '*'
 
 jobs:
   build:
-    runs-on: [self-hosted, linux, turkulab]
+    runs-on: [ubuntu-latest]
     steps:
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "This job is now running on a ${{ runner.os }}"
