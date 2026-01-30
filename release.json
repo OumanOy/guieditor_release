@@ -1,6 +1,7 @@
 {
     "version": "v1.0.0",
-    "notes": "The latest Ouman Guieditor with RU43 device support and many new features, including a new UI, transparent images, parameter override, improved font-size customization, and an enhanced user translation tool, along with additional improvements and bug fixes. We recommend backing up your projects before upgrading. Changes are extensive and expected to be backwards compatible, but not all situations can be anticipated.",    "pub_date": "2026-01-30T13:08:54Z",
+    "notes": "The latest Ouman Guieditor with RU43 device support and many new features, including a new UI, transparent images, parameter override, improved font-size customization, and an enhanced user translation tool, along with additional improvements and bug fixes. We recommend backing up your projects before upgrading. Changes are extensive and expected to be backwards compatible, but not all situations can be anticipated.",    
+    "pub_date": "2026-01-30T13:08:54Z",
     "platforms": {
       "windows-x86_64": {
         "url": "https://github.com/OumanOy/guieditor_release/raw/refs/heads/main/ouman-guieditor_2.0.0_x64-setup.exe"
